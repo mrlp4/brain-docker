@@ -1,0 +1,41 @@
+{
+    "public":{
+        "chainName": "Euler-5",
+        "chainId": "euler-5",
+        "gtm": "{Add your Google Tag Manager ID here}",
+        "slashingWindow": 240,
+        "uptimeWindow": 192,
+        "initialPageSize": 30,
+        "bech32PrefixAccAddr": "cyber",
+        "bech32PrefixAccPub": "cyberpub",
+        "bech32PrefixValAddr": "cybervaloper",
+        "bech32PrefixValPub": "cybervaloperpub",
+        "bech32PrefixConsAddr": "cybervalcons",
+        "bech32PrefixConsPub": "cybervalconspub",
+        "stakingDenom": "eul",
+        "mintingDenom": "eul",
+        "stakingFraction": 1000000000,
+        "gasPrice": 200,
+        "coingeckoId": "eul"
+    },
+    "genesisFile": "http://134.209.179.153:8080/ipfs/QmbAH3557gxEsxLMs2h7jhCtZwVj1o4jahPhdEdkT8S69M",
+    "remote":{
+        "rpc":"http://localhost:27657",
+        "lcd":"http://localhost:27317"
+    },
+    "debug": {
+        "startTimer": true,
+        "readGenesis": true
+    },
+    "params":{
+        "startHeight": 0,
+        "defaultBlockTime": 5000,
+        "blockInterval": 15000,
+        "consensusInterval": 1000,
+        "statusInterval":7500,
+        "signingInfoInterval": 1800000,
+        "proposalInterval": 5000,
+        "missedBlocksInterval": 60000,
+        "delegationInterval": 900000
+    }
+}
